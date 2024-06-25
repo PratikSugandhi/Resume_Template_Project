@@ -1,0 +1,25 @@
+body{
+    
+    display: flex;
+    font-size: smaller;
+    font-family: "Poppins", sans-serif;
+    justify-content: space-evenly;
+    background-color: #23acb1;
+    color: rgb(29, 14, 14);
+    overflow: hidden;
+}
+h1{
+    color: brown;
+}
+.name h1{
+    color: blueviolet;
+}
+.name h1::first-letter{
+        font-size:80px;
+}
+.leftpart{
+    display: grid;
+}
+.rightpart{
+    display: grid;
+}
